@@ -3,6 +3,8 @@ import time
 import threading
 from flask import Flask, jsonify
 from telegram import Bot
+from dotenv import load_dotenv
+load_dotenv()
 
 # ==========================
 # CONFIGURATION
